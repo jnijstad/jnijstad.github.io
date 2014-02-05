@@ -1,0 +1,23 @@
+---
+layout: default
+title: Jeffrey Nijstad's blog on things front + back-end development, things webdesign, things life
+---
+
+<div id="home">
+    {% for post in site.posts %}
+	  	<article class="article">
+	  		<header class="header">
+	  			 <time class="pubdate" pubdate="pubdate">{{ post.date | date_to_string }}</time>
+	  			 <h1>{{ post.title }}</h1>
+	  		</header>
+	  		<section class="excerpt">
+	  			{{ post.excerpt }}
+	  		</section>
+	  		<!-- /.article-excerpt -->
+	  		<section class="content">
+		    	{{ post.content}}	  			
+	  		</section>
+	  		<!-- /.article-content -->
+		</article>
+	{% endfor %}  	
+</div>
