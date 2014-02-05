@@ -77,7 +77,7 @@ Frameworks I experminent or work(ed) with for web apps:
 - <a target="_blank" href="http://rubyonrails.org/">Ruby on Rails</a>(my favorite)
 
 
-<figure class="fit">
+<figure class="fit shadow-on">
 	<img src="{{ site.url }}/images/rails4book.jpg" alt="Agile Web Development with Rails 4 book cover">
 	  <figcaption> <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">Agile Web Development with Rails</a>, co-authored by the creator, <a target="_blank" href="http://david.heinemeierhansson.com/">David Heinemeier Hansson</a> himself</figcaption>
 </figure>
