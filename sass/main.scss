@@ -24,7 +24,9 @@ $tablet-query					: 	"only screen and (min-width : 768px) and (max-width : 1024p
 $sans-font						:	"Proxima Nova", "Helvetica Neue", "Helvetica", "Open Sans", "Avenir", Arial, sans;
 $serif-font						:	"Georgia", "Adobe Garamond Pro", "Adobe Garamond", "Garamond", "Baskerville", "PT Serif", serif;
 $code-font						: 	"Avenir Next","Avenir","Helvetica Neue","Proxima Nova", "Helvetica";
-$heading-font 					:	"Crimson Text", "Baskerville", "Georgia", serif;
+$title-font 					:	"Crimson Text", "Baskerville", "Georgia", serif;
+$heading-font 					:	"Adobe Garamond Pro", "Garamond", "Georgia", "Palatino" "Iowan", "Baskerville", serif;
+
 
 @include establish-baseline;
 
@@ -48,6 +50,24 @@ body {
 	// min-width: 360px;
 }
 
+a {
+	&:link {
+		color: lighten(#06C, 5%);
+	}
+	&:visited {
+		color: lighten(#551A8B, 12%);
+
+		// color: red;
+	}
+}
+
+
+
+/*****************************************************************************/
+/*
+/* =Utilities
+/*
+/*****************************************************************************/
 
 .clear:after {
     content:"";
@@ -359,7 +379,7 @@ figure {
 
 .article {
 	.header {
-		font-family: "Crimson Text";
+		font-family: $title-font;
 		text-align: center;
 		@include margin-leader(3);
 		h1 {
@@ -389,9 +409,9 @@ figure {
 			@include adjust-font-size-to(25px);
 			font-weight: 600;
 			// text-transform: uppercase;
-			letter-spacing: 1px;
+			// letter-spacing: 1px;
 			text-align: center;
-			font-style: italic;
+			// font-style: italic;
 		}
 		h2 {
 			text-align: left;

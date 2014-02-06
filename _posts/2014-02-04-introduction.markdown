@@ -65,7 +65,6 @@ The two languages I daily use are:
 
 - PHP
 - Ruby
-- (Back-end oriented) Javascript
 
 Whilst the three itemed list above doesn't seem like much quantitatively. There are just endless programming patterns and frameworks available for these.
 
