@@ -408,9 +408,6 @@ figure {
 		font-style: italic;
 		@include rhythm(1,0,0,2);
 	}
-	.author-info {
-		display: none;
-	}
 	.content {
 		h1 {
 			@include margin-leader(1);
@@ -444,6 +441,9 @@ figure {
 				text-indent:-5px;
 				&:before{ content:"-"; position:relative; left:-5px; font-weight: 200; font-family: "Helvetica Neue"}
 			}
+		}
+		em {
+			font-weight: bold;
 		}
 	}
 }
