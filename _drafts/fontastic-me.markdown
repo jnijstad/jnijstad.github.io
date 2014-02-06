@@ -1,14 +1,17 @@
 ---
 layout: post
-title:  "Small Introduction"
-date:   2014-02-04 11:00:18
-categories: jekyll update
+title:  "Quickly create your custom icon fonts using fontastic.me"
+date:   2014-02-06 11:00:18
+categories: css3, sass, front-end
 excerpt: "You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext."
 
 ---
 
 [id]: {{ site.url }}/images/1.jpg  "Optional title attribute"
+
+
+ok
 
 Let us assume that at Yahoo the logo design team (including the intern) is comprised of the best designers in the field. It is conceivable that, with some luck, this dream team can design a logo “from start to finish” over a weekend. It sure is fun “weighing every minute detail” with a team of outstanding professionals. And what is more efficient than working directly with the CEO on the brand identity? A dream setup. Also, it’s cheap. A weekend for a logo, instead of paying a branding agency millions and waiting months for something that can be done in a couple of days? That’s smart business!
 
