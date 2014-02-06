@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
-    <body>
+    <body itemscope itemtype="http://schema.org/Blog">
         <div class="social">
           
           <div class="insta-bg">
@@ -65,15 +65,12 @@
           {{ content }}
 
           <footer class="site-footer">
-            <div class="contact">
+            <div itemscope itemtype="http://schema.org/Person" class="contact">
               <p>
-                <h1>Jeffrey Nijstad</h1>
-                Web Developer and Web Designer<br />
-               <a href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#046;&#110;&#105;&#106;&#115;&#116;&#097;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#046;&#110;&#105;&#106;&#115;&#116;&#097;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; </a>
+                <h1 itemprop="author" >Jeffrey Nijstad</h1>
+                <span itemprop="jobTitle">Web Developer and Web Designer</span><br />
+               <a itemprop="email" href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#046;&#110;&#105;&#106;&#115;&#116;&#097;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#046;&#110;&#105;&#106;&#115;&#116;&#097;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; </a>
               </p>
-            </div>
-            <div class="contact">
-
             </div>
           </footer>
         </div>
