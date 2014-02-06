@@ -8,7 +8,7 @@ title: Jeffrey Nijstad's blog on things front + back-end development, things web
 	  	<article itemscope itemtype="http://schema.org/BlogPosting" class="article">
 	  		<header class="header">
 	  			 <time itemprop="datePublished" class="pubdate" pubdate="pubdate">{{ post.date | date_to_string }}</time>
-	  			 <h1 itemprop="name">{{ post.title }}</h1>
+	  			 <h1 itemprop="name"><a itemprop="url" href="{{post.url}}">{{ post.title }}</a></h1>
 	  		</header>
 	  		<section itemprop="description" class="excerpt">
 	  			{{ post.excerpt }}

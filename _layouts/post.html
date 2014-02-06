@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+<article itemscope itemtype="http://schema.org/BlogPosting" class="article">
+	<header class="header">
+		 <time itemprop="datePublished" class="pubdate" pubdate="pubdate">{{ page..date | date_to_string }}</time>
+		 <h1 itemprop="name"><a href="{{post.url}}">{{ page.title }}</a></h1>
+	</header>
+	<section itemprop="description" class="excerpt">
+		{{ page.excerpt }}
+	</section>
+	<!-- /.article-excerpt -->
+	<section itemprop="articleBody" class="content">
+    	{{ content }}	  			
+	</section>
+	<!-- /.article-content -->
+	<span class="author-info" itemprop="author">Jeffrey Nijstad</span>
+</article>
