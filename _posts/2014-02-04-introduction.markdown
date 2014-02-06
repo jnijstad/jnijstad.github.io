@@ -30,7 +30,7 @@ My skillset in front-end development is the most comprehensive. A couple of tech
 -	HTML5 & CSS3
 
 <figure class="fit">
-	<img src="{{ site.url }}/images/yeoman-masthead.png" alt="Yeoman's iconic character.">
+	<img itemprop="image" src="{{ site.url }}/images/yeoman-masthead.png" alt="Yeoman's iconic character.">
 	  <figcaption>Yeoman's iconic character. Original on <a target="_blank" href="https://github.com/yeoman/yeoman">Yeoman's official github</a></figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ A couple of front-end frameworks I'm looking into a lot:
 
 Knowing some languages and frameworks isn't enough though. A practical understanding of techniques, tricks and trends is just as essential as book-knowledge. Keeping up to date with the latest happenings in the web world is exciting cause of its everchanging nature. Of all the new techniques coming and go, Responsive Design is definitely a game changer and robust enough to stay. 
 <figure class="fit">
-	<img src="{{ site.url }}/images/jnijstadoniphone.jpg" alt="JNIJSTAD blog on an iPhone">
+	<img itemprop="image" src="{{ site.url }}/images/jnijstadoniphone.jpg" alt="JNIJSTAD blog on an iPhone">
 	  <figcaption> A responsive website is able to adapt to various screen sizes.</figcaption>
 </figure>
 
@@ -52,8 +52,8 @@ A decent front-end developer can't go without a comprehensive knowledge of CSS3 
 
 
 <figure class="double shadow-on overflow overflow-70">
-	<img src="{{ site.url }}/images/alistapart-responsive.png" alt="Jeremy Keith's Responsive design.">
-	<img src="{{ site.url }}/images/decoding-html5.png" alt="Jeffrey Ways Decoding HTML5">
+	<img itemprop="image" src="{{ site.url }}/images/alistapart-responsive.png" alt="Jeremy Keith's Responsive design.">
+	<img itemprop="image" src="{{ site.url }}/images/decoding-html5.png" alt="Jeffrey Ways Decoding HTML5">
 	<figcaption>On the left <a target="_blank" href="http://www.abookapart.com/products/responsive-web-design"> Jeremy Keith's book on responsive design </a>. One of the first and best books I've read on the matter. On the right <a href="http://rockablepress.com/books/decoding-html5" target="_blank">Jeffrey Way's Decoding HTML5</a>. An incredible practical book on HTML5 (and everything that comes with it).</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ Frameworks I experminent or work(ed) with for web apps:
 
 
 <figure class="fit shadow-on">
-	<img src="{{ site.url }}/images/rails4book.jpg" alt="Agile Web Development with Rails 4 book cover">
+	<img itemprop="image" src="{{ site.url }}/images/rails4book.jpg" alt="Agile Web Development with Rails 4 book cover">
 	  <figcaption> <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">Agile Web Development with Rails</a>, co-authored by the creator, <a target="_blank" href="http://david.heinemeierhansson.com/">David Heinemeier Hansson</a> himself</figcaption>
 </figure>
 
@@ -113,7 +113,7 @@ This being said, I think the most appealing designs are: subtle animated, minima
 My full name is Jeffrey Nijstad. I dare to say that I'm a passionate webdeveloper and webdesigner. Currently residing in the Netherlands, where I grew up and finished college.
 
 <figure class="fit">
-	<img src="{{ site.url }}/images/jeffreynijstad.jpg" alt="Jeffrey Nijstad on bicycle on a beautiful remote island somewhere in Indonesia.">
+	<img itemprop="image" src="{{ site.url }}/images/jeffreynijstad.jpg" alt="Jeffrey Nijstad on bicycle on a beautiful remote island somewhere in Indonesia.">
 	  <figcaption> Yep that's me on a bicycle on a beautiful remote island somewhere in Indonesia.</figcaption>
 </figure>
 
