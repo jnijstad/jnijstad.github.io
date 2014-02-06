@@ -378,6 +378,9 @@ figure {
 		font-style: italic;
 		@include rhythm(1,0,0,2);
 	}
+	.author-info {
+		display: none;
+	}
 	.content {
 		h1 {
 			@include margin-leader(1);
