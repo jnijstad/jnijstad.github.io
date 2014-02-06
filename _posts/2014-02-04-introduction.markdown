@@ -120,7 +120,7 @@ My full name is Jeffrey Nijstad. I dare to say that I'm a passionate webdevelope
 
 
 But on the 14th of february, 9 days from now, I'll be making a big leap of faith. I'll move to Jakarta, Indonesia, hoping to start a new adventure. Plans? Find a job where I'm able to learn a lot, collabrate in a modern and fun matter and gain a lot of valuable experience. Furthermore I plan on working from coffeeshops, meet and collabrate with new passionate people, collabrate with a big prospective client I can't disclose just yet and, last but not least, enjoy the beautiful and rich scenery Indonesia has to offer.
-If you know a job opportunity or just want to meetup in Indonesia, just shoot me an <a href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#046;&#110;&#105;&#106;&#115;&#116;&#097;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">email </a>
+If you know a job opportunity or just want to meetup in Indonesia, just shoot me an <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#106;&#110;&#105;&#106;&#115;&#116;&#097;&#100;&#046;&#099;&#111;&#109;">email </a>
 
 >If you know a job opportunity or just want to meetup, just shoot me an <a href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#046;&#110;&#105;&#106;&#115;&#116;&#097;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">email </a>
 
