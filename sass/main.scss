@@ -36,11 +36,9 @@ html {
 
 ::selection {
 	background: lighten(#B3D4FD, 7%); /* Safari */
-	color: black;
 	}
 ::-moz-selection {
 	background: lighten(#B3D4FD, 7%) ;/* Firefox */
-	color: black;
 }
 
 /*****************************************************************************/
