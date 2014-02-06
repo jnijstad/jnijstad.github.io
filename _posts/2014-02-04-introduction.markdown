@@ -3,6 +3,7 @@ layout: post
 title:  "First Post: An Introduction"
 date:   2014-02-04 11:00:18
 categories: me
+description: "An introductary blogpost about Jeffrey Nijstad on front-end development, back-end development, design and himself"
 excerpt: "Here it finally is, my first post on my so long postponed first blog. In this first post I'll give a brief introduction of what is to expect. So without further ado, please enjoy reading the first introductary post about me and my webdevelopment and webdesign passion."
 
 ---
