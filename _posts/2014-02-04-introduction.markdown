@@ -102,7 +102,10 @@ print_hi('Jeffrey')
 
 ##Tools and workflow
 A productive workflow is incredibly important for a webdeveloper. You use your tools everyday, so better know your way around them. A great list of valuable tools can be found on <a  target="_blank" href="http://hackdesign.org/toolkit"> hackdesign's toolkit page</a>.
-My favorite IDE is definitely <a target="_blank" href="http://www.sublimetext.com/">Sublime Text</a>. Simple powerful and with the right packages, incredibly extensible to your likings.
+My favorite IDE is definitely <a target="_blank" href="http://www.sublimetext.com/">Sublime Text</a>. Simple, powerful and with the right packages, incredibly extensible to your likings.
+
+I use a 15 inch retina MacBook Pro as my primary machine. So expect my blog posts concerning development & design to be mostly OS X oriented. If you can't follow along cause you use an other machine, my apology.
+
 More about my workflow in a later post as well...
 
 #Design
