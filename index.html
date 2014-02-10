@@ -9,7 +9,7 @@ tags: HTML5, CSS, CSS3, JavaScript, CoffeeScript, WordPress, WordPress themes, W
     {% for post in site.posts %}
 	  	<article itemscope itemtype="http://schema.org/BlogPosting" class="article">
 	  		<header class="header">
-	  			 <time itemprop="datePublished" class="pubdate" pubdate="pubdate">{{ post.date | date_to_string }}</time>
+	  			 <time itemprop="datePublished" class="pubdate" datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
 	  			 <h1 itemprop="name"><a itemprop="url" href="{{post.url}}">{{ post.title }}</a></h1>
 	  		</header>
 	  		<section itemprop="description" class="excerpt">

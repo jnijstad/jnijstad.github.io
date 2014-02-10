@@ -1,23 +1,23 @@
 ---
 layout: post
-title:  "Set up SASS & Compass for WordPress theme development"
+title:  "Set up Sass & Compass for WordPress theme development"
 date:   2014-02-06 11:00:18
 categories: front-end
-tags: WordPress SASS CSS3 Compass WordPress theme development workflow set-up
-description: A blogpost showing how to use SASS and Compass in a WordPress project
+tags: WordPress Sass CSS3 Compass WordPress theme development workflow set-up
+description: A blogpost showing how to use Sass and Compass in a WordPress project
 
-excerpt: "The dust has settled between the vanilla CSS, LESS and SASS brawl. And you're using SASS to compile your CSS now. That's great! Damn what a time and headache saver right? You don't use SASS? Please give it a try and say bye to vanilla CSS. Now that you're just feelin comfortable using SASS you can't go back, i know. But your next project involves WordPress. How would one implement SASS (and Compass)? Let me show you how I do it."
+excerpt: "The dust has settled between the vanilla CSS, LESS and Sass brawl. And you're using Sass to compile your CSS now. That's great! Damn what a time and headache saver right? You don't use Sass? Please give it a try and say bye to vanilla CSS. Now that you're just feelin comfortable using  Sass you can't go back, i know. But your next project involves WordPress. How would one implement Sass (and Compass)? Let me show you how I do it."
 
 ---
 
-When one is switched to SASS, it's hard to go back to just CSS. I'm assuming you already use SASS/Compass and now want to use these beautiful technologies in your next *WordPress* project. Chris Coyier from the famous <a target="_blank" href="http://css-tricks.com/">CSS tricks</a> explains the problem when Implementing SASS and gives one solution. I'll go over the problem as well, but I'll give another solution to the matter.
+When one is switched to Sass, it's hard to go back to just CSS. I'm assuming you already use Sass/Compass and now want to use these beautiful technologies in your next *WordPress* project. Chris Coyier from the famous <a target="_blank" href="http://css-tricks.com/">CSS tricks</a> explains the problem when <a target="_blank" href="http://css-tricks.com/compass-compiling-and-wordpress-themes/"> Implementing Sass </a>and gives one solution. I'll go over the problem as well, but I'll give another solution to the matter.
 
-If you don't have SASS installed yet, please take a look at their <a target="_blank" href="http://sass-lang.com/install">install guide</a>.
-While you're at it, please make sure to <a href="http://compass-style.org/install/">install the Compass SASS extension</a> as well.
+If you don't have Sass installed yet, please take a look at their <a target="_blank" href="http://Sass-lang.com/install">install guide</a>.
+While you're at it, please make sure to <a class="_blank" href="http://compass-style.org/install/">install the Compass Sass extension</a> as well.
 
 
 #Problem
-The problems with using SASS in WordPress is that WordPress:
+The problems with using Sass in WordPress is that WordPress:
 
 1. needs a style.css file in the roots of its theme folder.
 2. this file needs a comment block to be recognized as theme, like so:
@@ -43,17 +43,35 @@ This theme, like WordPress, is licensed under the GPL.
 
 This is okay when you have a small Sass file at your root folder called style.scss and just let it compile to style.css with the required comment block at the top.
 
-<figure class="fit shadow-on">
+<figure class="overflow overflow-20 shadow-on">
 	<img src="{{ site.url }}/images/wordpress-tree.png" alt="Wordpress tree directory example">
 	  <figcaption>A sample of a partial Wordpress theme directory with style.css at root.</figcaption>
 </figure>
 
 
 
-But what if you have multiple Sass stylesheets? What if you want a footer.scss, header.scss, typography.scss etc.? 
+But what if you have multiple Sass stylesheets? What if you want a couple of _footer.scss, _header.scss, _typography.scss partials for example? 
 
-You don't want these floating around somewhere. For me, I like to add the following self explanatory my directory 
+**Check out the <a target="_blank" href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#partials">Sass docs</a> to see why those filenames have underscores in their name.**
 
+You don't want these floating around somewhere. For me, I like to add the following self explanatory structure to my directory:
+
+{% highlight html %}
+- wp-content
+	- themes
+		- mytheme
+            - config.rb
+            - /images
+			- /sass
+                - main.scss
+                - vendor/
+                    - _grids-example.scss
+                    - _header.scss
+			- /css
+            - /js
+            - style.css
+
+{% endhighlight %}
 
 
 
