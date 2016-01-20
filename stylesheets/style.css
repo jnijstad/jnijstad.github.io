@@ -108,7 +108,7 @@ body, html {
 }
 /* line 46, ../sass/style.scss */
 .left h1 {
-  font-family: "Kepler std";
+  font-family: "Kepler std", "Playfair Display","Freight", Times, serif;
   font-weight: 700;
   font-size: 58px;
   font-size: 3.625rem;
@@ -120,27 +120,28 @@ body, html {
 }
 /* line 53, ../sass/style.scss */
 .left p {
-  font-family: "Lato";
+  font-family: 'Lato', "Helvetica Neue", Helvetica, sans-serif;
   color: #909192;
+  font-weight: 400;
   font-size: 15px;
   font-size: 0.9375rem;
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 57, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .left p + p {
   margin-top: 28px;
   margin-top: 1.75rem;
 }
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .left a {
   display: inline-block;
   position: relative;
   text-decoration: none;
   color: #313131;
-  font-weight: 600;
+  font-weight: 700;
 }
-/* line 67, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .left a:after {
   content: "";
   position: absolute;
@@ -155,46 +156,46 @@ body, html {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
   opacity: 0.4;
 }
-/* line 80, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .left #dribbble:hover {
   color: #EC4989;
 }
-/* line 83, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .left #dribbble:after {
   background-color: #EC4989;
 }
-/* line 88, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .left #twitter:hover {
   color: #1CA1F2;
 }
-/* line 91, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 .left #twitter:after {
   background-color: #1CA1F2;
 }
-/* line 96, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .left #linkedin:hover {
-  color: #1CA1F2;
+  color: #1B86BD;
 }
-/* line 99, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .left #linkedin:after {
-  background-color: #1CA1F2;
+  background-color: #1B86BD;
 }
-/* line 104, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .left #instagram:hover {
   color: #004879;
 }
-/* line 107, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .left #instagram:after {
   background-color: #004879;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .right {
   width: 49.15254%;
   float: right;
   margin-right: 0;
   height: 100%;
-  background-image: url('../images/me.jpg?1453280378');
+  background-image: url('../images/me.jpg?1453300726');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;

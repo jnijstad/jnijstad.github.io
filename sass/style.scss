@@ -44,15 +44,16 @@ body, html {
 		margin: 0 auto;
 	}
 	h1 {
-		font-family: "Kepler std";
+		font-family: "Kepler std", "Playfair Display","Freight", Times, serif;		
 		font-weight: 700;
 		@include adjust-font-size-to(58px, 2.5);
 		@include margin-trailer(1);
 		color: #2C3138;
 	}
 	p {
-		font-family: "Lato";
+		font-family: 'Lato', "Helvetica Neue", Helvetica, sans-serif;
 		color: #909192;
+		font-weight: 400;
 		@include adjust-font-size-to(15px);
 		+p {
 			@include margin-leader(1);
@@ -63,7 +64,7 @@ body, html {
 		position: relative;
 		text-decoration: none;
 		color: #313131;
-		font-weight: 600;
+		font-weight: 700;
 		&:after {
 			content: "";
 			position: absolute;
@@ -94,10 +95,10 @@ body, html {
 	}
 	#linkedin {
 		&:hover {
-			color: #1CA1F2;
+			color: #1B86BD;
 		}
 		&:after {
-			background-color: #1CA1F2;
+			background-color: #1B86BD;
 		}
 	}
 	#instagram {
