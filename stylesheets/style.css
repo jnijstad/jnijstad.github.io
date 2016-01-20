@@ -195,6 +195,7 @@ body, html {
   float: right;
   margin-right: 0;
   height: 100%;
+  background-color: #BCEAF7;
   background-image: url('../images/jeffreynijstad.jpg?1453301567');
   -moz-background-size: cover;
   -o-background-size: cover;
