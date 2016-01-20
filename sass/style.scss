@@ -114,7 +114,7 @@ body, html {
 .right {
 	@include span(last 6 of 12);
 	height: 100%;
-	@include background-image(image-url('me.jpg'));
+	@include background-image(image-url('jeffreynijstad.jpg'));
 	@include background-size(cover);
 	background-position: center center;
 }
