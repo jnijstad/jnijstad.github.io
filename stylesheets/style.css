@@ -114,7 +114,7 @@ body, html {
   position: relative;
   top: 30vh;
   width: 70%;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 280px auto;
 }
 @media (max-width: 800px) {
   /* line 43, ../sass/style.scss */

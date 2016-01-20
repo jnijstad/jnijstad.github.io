@@ -45,7 +45,7 @@ body, html {
 		// top: 40%;
 		top: 30vh;
 		width: 70%;
-		margin: 0 auto 80px auto;
+		margin: 0 auto 280px auto;
 		@include breakpoint($phone-query){
 			top: 340px;
 		}
