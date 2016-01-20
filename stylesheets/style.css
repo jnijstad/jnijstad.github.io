@@ -76,22 +76,22 @@ html {
   line-height: 1.5em;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 body, html {
   height: 100%;
   min-height: 100vh;
-  min-width: 995px;
+  min-width: 305px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .wrap {
   min-height: 500px;
   height: 100%;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .left {
   width: 49.15254%;
   float: left;
@@ -99,14 +99,30 @@ body, html {
   position: relative;
   height: 100%;
 }
-/* line 39, ../sass/style.scss */
+@media (max-width: 800px) {
+  /* line 36, ../sass/style.scss */
+  .left {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 43, ../sass/style.scss */
 .left .text {
   position: relative;
   top: 30vh;
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 80px auto;
 }
-/* line 46, ../sass/style.scss */
+@media (max-width: 800px) {
+  /* line 43, ../sass/style.scss */
+  .left .text {
+    top: 340px;
+  }
+}
+/* line 54, ../sass/style.scss */
 .left h1 {
   font-family: "Kepler std", "Playfair Display","Freight", Times, serif;
   font-weight: 700;
@@ -118,7 +134,17 @@ body, html {
   margin-bottom: 1.75rem;
   color: #2C3138;
 }
-/* line 53, ../sass/style.scss */
+@media (max-width: 800px) {
+  /* line 54, ../sass/style.scss */
+  .left h1 {
+    text-align: center;
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 56px;
+    line-height: 3.5rem;
+  }
+}
+/* line 65, ../sass/style.scss */
 .left p {
   font-family: 'Lato', "Helvetica Neue", Helvetica, sans-serif;
   color: #909192;
@@ -128,12 +154,12 @@ body, html {
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 58, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .left p + p {
   margin-top: 28px;
   margin-top: 1.75rem;
 }
-/* line 62, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .left a {
   display: inline-block;
   position: relative;
@@ -141,7 +167,7 @@ body, html {
   color: #313131;
   font-weight: 700;
 }
-/* line 68, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .left a:after {
   content: "";
   position: absolute;
@@ -156,40 +182,40 @@ body, html {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
   opacity: 0.4;
 }
-/* line 81, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .left #dribbble:hover {
   color: #EC4989;
 }
-/* line 84, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .left #dribbble:after {
   background-color: #EC4989;
 }
-/* line 89, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .left #twitter:hover {
   color: #1CA1F2;
 }
-/* line 92, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .left #twitter:after {
   background-color: #1CA1F2;
 }
-/* line 97, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .left #linkedin:hover {
   color: #1B86BD;
 }
-/* line 100, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .left #linkedin:after {
   background-color: #1B86BD;
 }
-/* line 105, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .left #instagram:hover {
   color: #004879;
 }
-/* line 108, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .left #instagram:after {
   background-color: #004879;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .right {
   width: 49.15254%;
   float: right;
@@ -203,10 +229,34 @@ body, html {
   background-size: cover;
   background-position: center center;
 }
-/* line 122, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .right img {
   position: absolute;
   height: 100%;
   width: auto;
   display: block;
+}
+@media (max-width: 800px) {
+  /* line 134, ../sass/style.scss */
+  .right img {
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    position: relative;
+  }
+}
+@media (max-width: 800px) {
+  /* line 126, ../sass/style.scss */
+  .right {
+    position: absolute;
+    top: 115px;
+    height: auto;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    overflow: hidden;
+  }
 }

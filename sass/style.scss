@@ -18,11 +18,12 @@ $show-column-grid-backgrounds		: 	true;
 $show-grid-backgrounds 					: 	true;
 $rhythm-unit                    :   "rem";
 $rem-with-px-fallback           :   true;
+$phone-query										: 	max-width 800px;
 
 body, html {
 	height: 100%;
 	min-height: 100vh;
-	min-width: 995px;
+	min-width: 305px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -36,12 +37,19 @@ body, html {
 	@include span(first 6 of 12);
 	position: relative;
 	height: 100%;
+	@include breakpoint($phone-query){
+		@include full;
+  }
 	.text {
 		position: relative;		
 		// top: 40%;
 		top: 30vh;
 		width: 70%;
-		margin: 0 auto;
+		margin: 0 auto 80px auto;
+		@include breakpoint($phone-query){
+			top: 340px;
+		}
+
 	}
 	h1 {
 		font-family: "Kepler std", "Playfair Display","Freight", Times, serif;		
@@ -49,6 +57,10 @@ body, html {
 		@include adjust-font-size-to(58px, 2.5);
 		@include margin-trailer(1);
 		color: #2C3138;
+		@include breakpoint($phone-query){
+			text-align: center;
+			@include adjust-font-size-to(48px, 2);
+  	}
 	}
 	p {
 		font-family: 'Lato', "Helvetica Neue", Helvetica, sans-serif;
@@ -124,5 +136,22 @@ body, html {
 		height: 100%;
 		width: auto;
 		display: block;
+		@include breakpoint($phone-query){
+			margin: 0 auto;
+			width: 180px;
+			height: 180px;
+			@include border-radius(100%);
+			position: relative;
+		}
+
+	}
+	@include breakpoint($phone-query){
+		position: absolute;
+		top: 115px;
+		height: auto;
+		width: 100%;
+		left: 0;
+		background-color: #fff;;
+		overflow: hidden;
 	}
 }
