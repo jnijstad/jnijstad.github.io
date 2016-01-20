@@ -196,10 +196,17 @@ body, html {
   margin-right: 0;
   height: 100%;
   background-color: #BCEAF7;
-  background-image: url('../images/jeffreynijstad.jpg?1453301567');
+  position: relative;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
+}
+/* line 122, ../sass/style.scss */
+.right img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  display: block;
 }

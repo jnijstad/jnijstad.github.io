@@ -115,7 +115,14 @@ body, html {
 	@include span(last 6 of 12);
 	height: 100%;
 	background-color: #BCEAF7;
-	@include background-image(image-url('jeffreynijstad.jpg'));
+	position: relative;
+	// @include background-image(image-url('jeffreynijstad.jpg'));
 	@include background-size(cover);
 	background-position: center center;
+	img {
+		position: absolute;
+		height: 100%;
+		width: auto;
+		display: block;
+	}
 }
