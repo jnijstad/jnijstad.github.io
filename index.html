@@ -1,29 +1,39 @@
----
-layout: default
-title: Jeffrey Nijstad's blog on things front + back-end development, things webdesign, things life
-description: a blog about webdesign and front-end and back-end webdevelopment.
-tags: HTML5, CSS, CSS3, JavaScript, CoffeeScript, WordPress, WordPress themes, WordPress Plugins, Ruby on Rails
----
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Jeffrey Nijstad - Jakarta based designer and developer turned Product Manager
+	</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="A Simple personal homepage of the web developer, designer and product manager Jeffrey Nijstad.">
+	<meta name="keywords" content="Jeffrey, Nijstad">
+	<meta name="author" content="Jeffrey Nijstad">
+	<link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+<body>
 
-<div id="home">
-    {% for post in site.posts %}
-	  	<article itemscope itemtype="http://schema.org/BlogPosting" class="article">
-	  		<header class="header">
-	  			 <time itemprop="datePublished" class="pubdate" datetime="{{ post.date | date_to_xmlschema	 }}" >{{ post.date | date_to_string }}</time>
-	  			 <h1 itemprop="name"><a itemprop="url" href="{{post.url}}">{{ post.title }}</a></h1>
-	  		</header>
-	  		<section itemprop="description" class="excerpt">
-	  			{{ post.excerpt }}
-	  		</section>
-	  		<!-- /.article-excerpt -->
-	  		<section itemprop="articleBody" class="content">
-		    	{{ post.content}}	  			
-	  		</section>
-	  		<!-- /.article-content -->
-	  		<meta itemprop="author" content="Jeffrey Nijstad"/>
-	  		<meta itemprop="wordCount" content="{{ post.content | number_of_words }}"/>
+<div class="wrap">
 
-	  		
-		</article>
-	{% endfor %}  	
+<div class="left">
+	<div class="text">
+		<h1>
+			Live, Create &amp; Iterate :-)
+		</h1>
+		<p>
+			I'm a digital designer &amp; developer turned product manager based in Jakarta. I believe that bringing good design together with the right technology can change the world.			
+		</p>
+		<p>
+			See what I design on <a target="_blank" id="dribbble" href="http://dribbble.com/jnijstad">Dribbble</a>, read what I rant on <a target="_blank" id="twitter" href="https://twitter.com/bitadventures">Twitter</a>, check my skills on <a id="linkedin" target="_blank" href="http://linkedin.com">LinkedIn</a> and see what I capture on my <a target="_blank" id="instagram" href="https://instagram.com/jeffreynijstad">Instagram</a>.
+		</p>
+	</div>
+	<!-- /.text -->
 </div>
+<!-- /.left -->
+<div class="right">	</div>
+<!-- /.right -->
+
+</div>
+<!-- /.wrap -->
+
+</body>
+</html>

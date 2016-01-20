@@ -1,5 +1,0 @@
-name: jnijstad
-markdown: redcarpet
-redcarpet:
-  extensions: ["autolink", "tables"]
-pygments: true
