@@ -26,6 +26,10 @@ body, html {
 	min-width: 305px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	@include breakpoint($phone-query){
+		height: auto;
+	}
+
 }
 
 .wrap {
@@ -45,7 +49,7 @@ body, html {
 		// top: 40%;
 		top: 30vh;
 		width: 70%;
-		margin: 0 auto 280px auto;
+		margin: 0 auto 200px auto;
 		@include breakpoint($phone-query){
 			top: 340px;
 		}
