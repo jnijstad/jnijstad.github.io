@@ -133,13 +133,13 @@ body, html {
 	background-color: #BCEAF7;
 	position: relative;
 	// @include background-image(image-url('jeffreynijstad.jpg'));
-	@include background-size(cover);
-	background-position: center center;
-	img {
+	figure {
 		position: absolute;
 		height: 100%;
-		width: auto;
+		width: 100%;
 		display: block;
+		@include background-size(cover);
+		background-position: center center;		
 		@include breakpoint($phone-query){
 			margin: 0 auto;
 			width: 180px;
@@ -147,7 +147,9 @@ body, html {
 			@include border-radius(100%);
 			position: relative;
 		}
-
+	}
+	img {
+		display: none;
 	}
 	@include breakpoint($phone-query){
 		position: absolute;
