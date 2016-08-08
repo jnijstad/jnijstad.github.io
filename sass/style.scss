@@ -34,24 +34,30 @@ body, html {
 
 .wrap {
 	min-height: 500px;
-	height: 100%;
-}
+	height: 100vh;
+	@include pie-clearfix;
+	@include breakpoint($phone-query){
+		height: auto;
+	}
 
+}
 .left {
 	@include span(first 6 of 12);
 	position: relative;
-	height: 100%;
+	min-height: 100vh;
 	@include breakpoint($phone-query){
 		@include full;
   }
 	.text {
 		position: relative;		
 		// top: 40%;
-		top: 30vh;
+		// top: 30vh;
+		padding-top: 30vh;
 		width: 70%;
 		margin: 0 auto 200px auto;
 		@include breakpoint($phone-query){
-			top: 340px;
+			top: 0;
+			padding-top: 340px;
 		}
 
 	}
@@ -129,7 +135,7 @@ body, html {
 
 .right {
 	@include span(last 6 of 12);
-	height: 100%;
+	min-height: 100%;
 	background-color: #BCEAF7;
 	position: relative;
 	// @include background-image(image-url('jeffreynijstad.jpg'));
@@ -155,6 +161,7 @@ body, html {
 		position: absolute;
 		top: 115px;
 		height: auto;
+		min-height: 0;
 		width: 100%;
 		left: 0;
 		background-color: #fff;;
